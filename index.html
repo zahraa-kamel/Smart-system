@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    
+<div class="Smart vh-100 w-100">
+<div class="container py-5 vh-100 text-center ">
+    <div class="row w-75 m-auto p-5 ">
+<h1>Smart Login System</h1>
+
+
+<input type="text" class="form-control  d-none  my-3 " id="NameInput" placeholder="Enter your Name">
+<input type="email" class="form-control  my-3 " id="EmailInput" placeholder="Enter your Email">
+<input type="password" class="form-control my-3" id="PasswordInput" placeholder="Enter your Password">
+
+<p class=" accept fs-4 text-success  d-none">Success</p>
+<p class="text-danger fs-4  d-none">All inputs is required</p>
+<p class="text-danger d-none exist m-3">email already exists</p>
+
+<button class="btn my-3 btn-outline-info d-none signUp " type="submit">Sign up</button>
+<button class="btn my-3 btn-outline-info  signIn" type="submit">Login</button>
+
+
+
+
+<p class="text-light  Move">Don’t have an account? <a href="#" class="text-light UpAnchor ">Sign Up</a></p>
+<p class="text-light d-none "> Do You have an account? <a href="#" class="text-light InAnchor">Sign in</a></p>
+
+    </div>
+</div>
+</div>
+
+<div  class="container">
+    <div class="welcome w-50 shadow d-none bg-black py-5">
+
+    </div>
+</div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/style.js"></script>
+</body>
+</html>

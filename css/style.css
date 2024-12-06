@@ -1,0 +1,27 @@
+.row{
+    background-color:#24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.row h1{
+    color: #17a2b8;
+}
+ a :visited {
+text-decoration:line-through;
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+.form-control {
+
+    
+     color: white;
+}
+
+.Smart{
+    background-color: #24353f;
+}
+
